@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/discardLayout"
+    android:layout_width="275dp"
+    android:layout_height="100dp"
+    android:layout_gravity="top"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/discardText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:text="Discard these two cards?"
+        android:textColor="@color/opaque"
+        android:textSize="20dp"
+        android:layout_alignParentTop="true">
+    </TextView>
+
+    <Button
+        android:id="@+id/yesButton"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:text="Yes"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true">
+    </Button>
+    <Button
+        android:id="@+id/noButton"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:text="No"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true">
+    </Button>
+
+</RelativeLayout>

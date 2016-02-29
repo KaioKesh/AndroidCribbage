@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="feltgreen" type="color">#FF1e571e</item>
+    <item name="opaque" type="color">#FF000000</item>
+    <item name="clear" type="color">#00000000</item>
+    <item name="white" type="color">#FFFFFF</item>
+
+</resources>

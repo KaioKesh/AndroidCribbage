@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Cribbage</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+	<string name="title_activity_game">CribbageActivity</string>
+    <string name="discard">Discard</string>
+    <string name="rules">RulesActivity</string>
+    <string name="rules_title">The Rules of Cribbage</string>
+    <string name="setup_title">The setup</string>
+    <string name="theplay_title">The Round Play</string>
+    <string name="theshow_title">The Show</string>
+    <string name="scoring">Scoring</string>
+    <string name="setup">
+        Cribbage uses a standard deck of playing cards.
+    At the start of the game, first dealer is chosen randomly and switches off every round.
+    Dealer deals six cards to each person.
+    Each player chooses four cards to keep and discards the remaining two to a separate hand called the crib.
+    </string>
+    <string name="theplay">
+        Non-dealer plays the first card and play is alternated between the two.
+    Cards are played until the running total is 31 or no player can play a card that puts the total over 31.
+    If one player has no valid plays, the other player must continue until they also have no valid plays.
+    When neither player can play any more cards, the running total is set back to zero and play resumes with the person who did not play last.
+    Round continues until both players have no more cards.
+    </string>
+    <string name="theshow">
+        In the show both players take back their cards and score it with
+        an additional card cut from the deck that counts towards both player\'s hands.
+    The non-dealer scores their hand first, then the dealer, and finally the dealer scores the crib start of the round.
+</string>
+    <string name="scoringduringplay">
+        Players can accumulate points during the play by:\n
+        Getting the running total to 15 or 31 = 2 points\n
+        Playing pairs = 2 points per unique pair\n
+        Playing a run or straight (minimum 3 cards) = 1 point per card\n
+        Playing the last card before running total is reset (a go)= 1 point\n
+        All points during the play are added immediately
+    </string>
+    <string name="scoringtheshow">\n
+        Scoring your hand during the show:\n
+        Contains a Jack of the same suit as the discard\n
+        Contains pairs = 2 points per unique pair\n
+        Contains a run or straight (minimum 3 cards) = 1 point per card\n
+        Contains a set of 15 = 2 points per unique set\n
+        Contains a flush  = 1 point per card\n
+        (all four cards in starting hand must be a flush, the discard card can only add one point not complete the flush)\n
+        \nThe game ends when any player reaches 121 points during the play or show.
+    </string>
+
+
+</resources>
